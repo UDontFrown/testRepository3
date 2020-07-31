@@ -32,6 +32,16 @@ public class User {
     private Integer id;
     private String name;
     private String phone;
+    private String address;
+
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     @Override
     public String toString() {
@@ -39,6 +49,7 @@ public class User {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", phone='" + phone + '\'' +
+                ", address='" + address + '\'' +
                 '}';
     }
 
